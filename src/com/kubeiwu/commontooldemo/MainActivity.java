@@ -6,6 +6,7 @@ import android.support.v4.app.FragmentActivity;
 import android.view.View;
 
 import com.kubeiwu.commontooldemo.activity.MyFragmentTabsactivity;
+import com.kubeiwu.commontooldemo.fragment.AotoViewpager_indicator;
 
 public class MainActivity extends FragmentActivity {
 	@Override
@@ -23,6 +24,11 @@ public class MainActivity extends FragmentActivity {
 	public void tabspager(View v) {
 		Intent intent = new Intent(this, MyFragmentTabsactivity.class);
 		intent.putExtra("layoutResID", R.layout.textmyfragmenttabspager);
+		startActivity(intent);
+	}
+	public void aotoViewpager(View v) {
+		Intent intent = new Intent(this, MyFragmentTabsactivity.class);
+		intent.putExtra("layoutResID", R.layout.textaotoviewpagerfragment_pager);
 		startActivity(intent);
 	}
 }

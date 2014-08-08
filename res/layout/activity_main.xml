@@ -9,8 +9,6 @@
         android:id="@+id/Tabs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="24dp"
         android:onClick="tabs"
         android:text="Tabs" />
@@ -19,8 +17,6 @@
         android:id="@+id/TabsPager"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_below="@+id/button1"
         android:layout_marginTop="23dp"
         android:onClick="tabspager"
         android:text="TabsPager" />
@@ -32,14 +28,13 @@
         android:layout_alignLeft="@+id/button2"
         android:layout_below="@+id/button2"
         android:layout_marginTop="32dp"
-        android:text="Button" />
+        android:onClick="aotoViewpager"
+        android:text="aotoViewpager" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_below="@+id/button3"
         android:layout_marginTop="25dp"
         android:text="Button" />
 
@@ -47,8 +42,6 @@
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button4"
-        android:layout_below="@+id/button4"
         android:layout_marginTop="19dp"
         android:text="Button" />
 

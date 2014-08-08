@@ -33,7 +33,7 @@ public class TextMyFragmentTabs extends BaseFragmentTabs {
 			button3.setText("标签3");
 			mFragmentTabHost.addTab(mFragmentTabHost.newTabSpec("simple1").setIndicator(button1), MyDownloadFragment1.class, null);
 			mFragmentTabHost.addTab(mFragmentTabHost.newTabSpec("simple2").setIndicator(button2), MyDownloadFragment2.class, null);
-			mFragmentTabHost.addTab(mFragmentTabHost.newTabSpec("simple3").setIndicator(button3), MyDownloadFragment3.class, null);
+			mFragmentTabHost.addTab(mFragmentTabHost.newTabSpec("simple3").setIndicator(button3), TextMyFragmentTabsPager.class, null);
 		}
 
 		//根据需求覆写
