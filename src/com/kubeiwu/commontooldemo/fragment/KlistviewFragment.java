@@ -50,8 +50,6 @@ public class KlistviewFragment extends Fragment {
  
 						kListView.stopLoadMore();   
  
-						kListView.stopLoadMore();
- 
 						kListView.stopRefresh();
 					}
 				}, 1000 * 5);
