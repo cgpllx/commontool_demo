@@ -7,8 +7,92 @@
 package com.kubeiwu.commontool;
 
 public final class R {
+	public static final class attr {
+		public static final int arrow_pic = 0x7f010007;
+		public static final int centered = 0x7f01000a;
+		public static final int fillColor = 0x7f01000e;
+		public static final int footer_heaght = 0x7f010006;
+		public static final int footer_hint_normal = 0x7f010004;
+		public static final int footer_hint_ready = 0x7f010003;
+		public static final int hasStickyHeaders = 0x7f010008;
+		public static final int header_heaght = 0x7f010005;
+		public static final int header_hint_loading = 0x7f010002;
+		public static final int header_hint_normal = 0x7f010000;
+		public static final int header_hint_ready = 0x7f010001;
+		public static final int isDrawingListUnderStickyHeader = 0x7f010009;
+		public static final int pageColor = 0x7f01000f;
+		public static final int radius = 0x7f010010;
+		public static final int selectedColor = 0x7f01000b;
+		public static final int snap = 0x7f010011;
+		public static final int strokeColor = 0x7f010012;
+		public static final int strokeWidth = 0x7f01000c;
+		public static final int unselectedColor = 0x7f01000d;
+		public static final int vpiTabPageIndicatorStyle = 0x7f010013;
+	}
+	public static final class drawable {
+		public static final int xlistview_arrow = 0x7f020003;
+	}
 	public static final class id {
-		public static final int realtabcontent = 0x7f040000;
-		public static final int pager = 0x7f040001;
+		public static final int klistview_footer_content = 0x7f040000;
+		public static final int klistview_footer_hint_textview = 0x7f040001;
+		public static final int klistview_footer_progressbar = 0x7f040002;
+		public static final int klistview_header_arrow = 0x7f040003;
+		public static final int klistview_header_content = 0x7f040004;
+		public static final int klistview_header_hint_textview = 0x7f040005;
+		public static final int klistview_header_progressbar = 0x7f040006;
+		public static final int klistview_header_text = 0x7f040007;
+		public static final int klistview_header_time = 0x7f040008;
+		public static final int pager = 0x7f040009;
+		public static final int realtabcontent = 0x7f04000a;
+	}
+	public static final class style {
+		public static final int TextAppearance_TabPageIndicator = 0x7f050002;
+		public static final int Widget = 0x7f050000;
+		public static final int Widget_TabPageIndicator = 0x7f050001;
+	}
+	public static final class styleable {
+		public static final int[] CirclePageIndicator = { 0x010100c4, 0x010100d4, 0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011, 0x7f010012 };
+		public static final int CirclePageIndicator_android_background = 1;
+		public static final int CirclePageIndicator_android_orientation = 0;
+		public static final int CirclePageIndicator_centered = 2;
+		public static final int CirclePageIndicator_fillColor = 6;
+		public static final int CirclePageIndicator_pageColor = 7;
+		public static final int CirclePageIndicator_radius = 8;
+		public static final int CirclePageIndicator_selectedColor = 3;
+		public static final int CirclePageIndicator_snap = 9;
+		public static final int CirclePageIndicator_strokeColor = 10;
+		public static final int CirclePageIndicator_strokeWidth = 4;
+		public static final int CirclePageIndicator_unselectedColor = 5;
+		public static final int[] KListView = { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007 };
+		public static final int KListView_arrow_pic = 7;
+		public static final int KListView_footer_heaght = 6;
+		public static final int KListView_footer_hint_normal = 4;
+		public static final int KListView_footer_hint_ready = 3;
+		public static final int KListView_header_heaght = 5;
+		public static final int KListView_header_hint_loading = 2;
+		public static final int KListView_header_hint_normal = 0;
+		public static final int KListView_header_hint_ready = 1;
+		public static final int[] StickyListHeadersListView = { 0x0101007f, 0x010100d5, 0x010100d6, 0x010100d7, 0x010100d8, 0x010100d9, 0x010100e0, 0x010100eb, 0x010100fb, 0x010100fc, 0x010100fe, 0x01010101, 0x01010129, 0x0101012a, 0x0101012b, 0x01010226, 0x010103a5, 0x7f010008, 0x7f010009 };
+		public static final int StickyListHeadersListView_android_cacheColorHint = 11;
+		public static final int StickyListHeadersListView_android_choiceMode = 14;
+		public static final int StickyListHeadersListView_android_clipToPadding = 7;
+		public static final int StickyListHeadersListView_android_divider = 12;
+		public static final int StickyListHeadersListView_android_dividerHeight = 13;
+		public static final int StickyListHeadersListView_android_drawSelectorOnTop = 9;
+		public static final int StickyListHeadersListView_android_fadingEdgeLength = 6;
+		public static final int StickyListHeadersListView_android_fastScrollEnabled = 15;
+		public static final int StickyListHeadersListView_android_listSelector = 8;
+		public static final int StickyListHeadersListView_android_padding = 1;
+		public static final int StickyListHeadersListView_android_paddingBottom = 5;
+		public static final int StickyListHeadersListView_android_paddingLeft = 2;
+		public static final int StickyListHeadersListView_android_paddingRight = 4;
+		public static final int StickyListHeadersListView_android_paddingTop = 3;
+		public static final int StickyListHeadersListView_android_requiresFadingEdge = 16;
+		public static final int StickyListHeadersListView_android_scrollbarStyle = 0;
+		public static final int StickyListHeadersListView_android_scrollingCache = 10;
+		public static final int StickyListHeadersListView_hasStickyHeaders = 17;
+		public static final int StickyListHeadersListView_isDrawingListUnderStickyHeader = 18;
+		public static final int[] ViewPagerIndicator = { 0x7f010013 };
+		public static final int ViewPagerIndicator_vpiTabPageIndicatorStyle = 0;
 	}
 }
