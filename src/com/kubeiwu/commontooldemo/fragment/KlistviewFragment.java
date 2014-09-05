@@ -18,7 +18,9 @@ import com.kubeiwu.commontool.view.pulltorefresh.listview.KListView.KConfig;
 
 //Administrator
 public class KlistviewFragment extends Fragment {
+ 
 	private KListView	kListView;
+ 
 
 	@SuppressLint("NewApi")
 	@Override
@@ -45,7 +47,11 @@ public class KlistviewFragment extends Fragment {
 				new Handler().postDelayed(new Runnable() {
 					@Override
 					public void run() {
+ 
 						kListView.stopLoadMore();   
+ 
+						kListView.stopLoadMore();
+ 
 						kListView.stopRefresh();
 					}
 				}, 1000 * 5);
