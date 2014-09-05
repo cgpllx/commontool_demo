@@ -9,6 +9,178 @@ package com.kubeiwu.commontooldemo;
 
 public final class R {
     public static final class attr {
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int arrow_pic=0x7f010007;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int centered=0x7f01000a;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fillColor=0x7f01000e;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int footer_heaght=0x7f010006;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int footer_hint_normal=0x7f010004;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int footer_hint_ready=0x7f010003;
+        /**  StickyListHeaders attributes 
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int hasStickyHeaders=0x7f010008;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int header_heaght=0x7f010005;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int header_hint_loading=0x7f010002;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int header_hint_normal=0x7f010000;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int header_hint_ready=0x7f010001;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int isDrawingListUnderStickyHeader=0x7f010009;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int pageColor=0x7f01000f;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int radius=0x7f010010;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int selectedColor=0x7f01000b;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int snap=0x7f010011;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int strokeColor=0x7f010012;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int strokeWidth=0x7f01000c;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int unselectedColor=0x7f01000d;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int vpiTabPageIndicatorStyle=0x7f010013;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -17,35 +189,53 @@ public final class R {
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static final int activity_horizontal_margin=0x7f060000;
+        public static final int activity_vertical_margin=0x7f060001;
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
+        public static final int pic_main_gallery_default=0x7f020001;
+        public static final int videobj=0x7f020002;
+        public static final int xlistview_arrow=0x7f020003;
     }
     public static final class id {
-        public static final int Tabs=0x7f080000;
-        public static final int TabsPager=0x7f080001;
-        public static final int action_settings=0x7f080008;
-        public static final int button1=0x7f080002;
-        public static final int button2=0x7f080004;
-        public static final int button3=0x7f080003;
-        public static final int button4=0x7f080005;
-        public static final int button5=0x7f080006;
-        public static final int search_result=0x7f080007;
+        public static final int action_settings=0x7f040012;
+        public static final int channel_main_gallery=0x7f04000c;
+        public static final int channel_main_gallery_container=0x7f04000b;
+        public static final int channel_main_radiogroup=0x7f04000d;
+        public static final int content_view=0x7f04000e;
+        public static final int indicator=0x7f04000f;
+        public static final int klistview_footer_content=0x7f040000;
+        public static final int klistview_footer_hint_textview=0x7f040001;
+        public static final int klistview_footer_progressbar=0x7f040002;
+        public static final int klistview_header_arrow=0x7f040003;
+        public static final int klistview_header_content=0x7f040004;
+        public static final int klistview_header_hint_textview=0x7f040005;
+        public static final int klistview_header_progressbar=0x7f040006;
+        public static final int klistview_header_text=0x7f040007;
+        public static final int klistview_header_time=0x7f040008;
+        public static final int listview=0x7f040010;
+        public static final int pager=0x7f040009;
+        public static final int realtabcontent=0x7f04000a;
+        public static final int search_result=0x7f040011;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int textmyfragmenttabs=0x7f030001;
-        public static final int textmyfragmenttabspager=0x7f030002;
+        public static final int aactivity_main=0x7f030000;
+        public static final int activity_main=0x7f030001;
+        public static final int aotoviewpagerfragment_pager=0x7f030002;
+        public static final int controller_fragment_layout=0x7f030003;
+        public static final int klistview=0x7f030004;
+        public static final int textaotoviewpagerfragment_pager=0x7f030005;
+        public static final int textmyfragmenttabs=0x7f030006;
+        public static final int textmyfragmenttabspager=0x7f030007;
     }
     public static final class menu {
-        public static final int main=0x7f070000;
+        public static final int main=0x7f080000;
     }
     public static final class string {
-        public static final int action_settings=0x7f050001;
-        public static final int app_name=0x7f050000;
-        public static final int hello_world=0x7f050002;
+        public static final int action_settings=0x7f070001;
+        public static final int app_name=0x7f070000;
+        public static final int hello_world=0x7f070002;
     }
     public static final class style {
         /** 
@@ -69,10 +259,557 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f050003;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f050004;
+        public static final int TextAppearance_TabPageIndicator=0x7f050002;
+        public static final int Widget=0x7f050000;
+        public static final int Widget_TabPageIndicator=0x7f050001;
     }
+    public static final class styleable {
+        /**  viewpager指示器  圆点
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CirclePageIndicator_android_background android:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_android_orientation android:orientation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_centered com.kubeiwu.commontooldemo:centered}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_fillColor com.kubeiwu.commontooldemo:fillColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_pageColor com.kubeiwu.commontooldemo:pageColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_radius com.kubeiwu.commontooldemo:radius}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_selectedColor com.kubeiwu.commontooldemo:selectedColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_snap com.kubeiwu.commontooldemo:snap}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_strokeColor com.kubeiwu.commontooldemo:strokeColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_strokeWidth com.kubeiwu.commontooldemo:strokeWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #CirclePageIndicator_unselectedColor com.kubeiwu.commontooldemo:unselectedColor}</code></td><td></td></tr>
+           </table>
+           @see #CirclePageIndicator_android_background
+           @see #CirclePageIndicator_android_orientation
+           @see #CirclePageIndicator_centered
+           @see #CirclePageIndicator_fillColor
+           @see #CirclePageIndicator_pageColor
+           @see #CirclePageIndicator_radius
+           @see #CirclePageIndicator_selectedColor
+           @see #CirclePageIndicator_snap
+           @see #CirclePageIndicator_strokeColor
+           @see #CirclePageIndicator_strokeWidth
+           @see #CirclePageIndicator_unselectedColor
+         */
+        public static final int[] CirclePageIndicator = {
+            0x010100c4, 0x010100d4, 0x7f01000a, 0x7f01000b,
+            0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f,
+            0x7f010010, 0x7f010011, 0x7f010012
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#background}
+          attribute's value can be found in the {@link #CirclePageIndicator} array.
+          @attr name android:background
+        */
+        public static final int CirclePageIndicator_android_background = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#orientation}
+          attribute's value can be found in the {@link #CirclePageIndicator} array.
+          @attr name android:orientation
+        */
+        public static final int CirclePageIndicator_android_orientation = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.kubeiwu.commontooldemo.R.attr#centered}
+          attribute's value can be found in the {@link #CirclePageIndicator} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.kubeiwu.commontooldemo:centered
+        */
+        public static final int CirclePageIndicator_centered = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.kubeiwu.commontooldemo.R.attr#fillColor}
+          attribute's value can be found in the {@link #CirclePageIndicator} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.kubeiwu.commontooldemo:fillColor
+        */
+        public static final int CirclePageIndicator_fillColor = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.kubeiwu.commontooldemo.R.attr#pageColor}
+          attribute's value can be found in the {@link #CirclePageIndicator} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.kubeiwu.commontooldemo:pageColor
+        */
+        public static final int CirclePageIndicator_pageColor = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.kubeiwu.commontooldemo.R.attr#radius}
+          attribute's value can be found in the {@link #CirclePageIndicator} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.kubeiwu.commontooldemo:radius
+        */
+        public static final int CirclePageIndicator_radius = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.kubeiwu.commontooldemo.R.attr#selectedColor}
+          attribute's value can be found in the {@link #CirclePageIndicator} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.kubeiwu.commontooldemo:selectedColor
+        */
+        public static final int CirclePageIndicator_selectedColor = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.kubeiwu.commontooldemo.R.attr#snap}
+          attribute's value can be found in the {@link #CirclePageIndicator} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.kubeiwu.commontooldemo:snap
+        */
+        public static final int CirclePageIndicator_snap = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.kubeiwu.commontooldemo.R.attr#strokeColor}
+          attribute's value can be found in the {@link #CirclePageIndicator} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.kubeiwu.commontooldemo:strokeColor
+        */
+        public static final int CirclePageIndicator_strokeColor = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.kubeiwu.commontooldemo.R.attr#strokeWidth}
+          attribute's value can be found in the {@link #CirclePageIndicator} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.kubeiwu.commontooldemo:strokeWidth
+        */
+        public static final int CirclePageIndicator_strokeWidth = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.kubeiwu.commontooldemo.R.attr#unselectedColor}
+          attribute's value can be found in the {@link #CirclePageIndicator} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.kubeiwu.commontooldemo:unselectedColor
+        */
+        public static final int CirclePageIndicator_unselectedColor = 5;
+        /**  下拉刷新 
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #KListView_arrow_pic com.kubeiwu.commontooldemo:arrow_pic}</code></td><td></td></tr>
+           <tr><td><code>{@link #KListView_footer_heaght com.kubeiwu.commontooldemo:footer_heaght}</code></td><td></td></tr>
+           <tr><td><code>{@link #KListView_footer_hint_normal com.kubeiwu.commontooldemo:footer_hint_normal}</code></td><td></td></tr>
+           <tr><td><code>{@link #KListView_footer_hint_ready com.kubeiwu.commontooldemo:footer_hint_ready}</code></td><td></td></tr>
+           <tr><td><code>{@link #KListView_header_heaght com.kubeiwu.commontooldemo:header_heaght}</code></td><td></td></tr>
+           <tr><td><code>{@link #KListView_header_hint_loading com.kubeiwu.commontooldemo:header_hint_loading}</code></td><td></td></tr>
+           <tr><td><code>{@link #KListView_header_hint_normal com.kubeiwu.commontooldemo:header_hint_normal}</code></td><td></td></tr>
+           <tr><td><code>{@link #KListView_header_hint_ready com.kubeiwu.commontooldemo:header_hint_ready}</code></td><td></td></tr>
+           </table>
+           @see #KListView_arrow_pic
+           @see #KListView_footer_heaght
+           @see #KListView_footer_hint_normal
+           @see #KListView_footer_hint_ready
+           @see #KListView_header_heaght
+           @see #KListView_header_hint_loading
+           @see #KListView_header_hint_normal
+           @see #KListView_header_hint_ready
+         */
+        public static final int[] KListView = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.kubeiwu.commontooldemo.R.attr#arrow_pic}
+          attribute's value can be found in the {@link #KListView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.kubeiwu.commontooldemo:arrow_pic
+        */
+        public static final int KListView_arrow_pic = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.kubeiwu.commontooldemo.R.attr#footer_heaght}
+          attribute's value can be found in the {@link #KListView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.kubeiwu.commontooldemo:footer_heaght
+        */
+        public static final int KListView_footer_heaght = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.kubeiwu.commontooldemo.R.attr#footer_hint_normal}
+          attribute's value can be found in the {@link #KListView} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.kubeiwu.commontooldemo:footer_hint_normal
+        */
+        public static final int KListView_footer_hint_normal = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.kubeiwu.commontooldemo.R.attr#footer_hint_ready}
+          attribute's value can be found in the {@link #KListView} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.kubeiwu.commontooldemo:footer_hint_ready
+        */
+        public static final int KListView_footer_hint_ready = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.kubeiwu.commontooldemo.R.attr#header_heaght}
+          attribute's value can be found in the {@link #KListView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.kubeiwu.commontooldemo:header_heaght
+        */
+        public static final int KListView_header_heaght = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.kubeiwu.commontooldemo.R.attr#header_hint_loading}
+          attribute's value can be found in the {@link #KListView} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.kubeiwu.commontooldemo:header_hint_loading
+        */
+        public static final int KListView_header_hint_loading = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.kubeiwu.commontooldemo.R.attr#header_hint_normal}
+          attribute's value can be found in the {@link #KListView} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.kubeiwu.commontooldemo:header_hint_normal
+        */
+        public static final int KListView_header_hint_normal = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.kubeiwu.commontooldemo.R.attr#header_hint_ready}
+          attribute's value can be found in the {@link #KListView} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.kubeiwu.commontooldemo:header_hint_ready
+        */
+        public static final int KListView_header_hint_ready = 1;
+        /**  listview固定头部 
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #StickyListHeadersListView_android_cacheColorHint android:cacheColorHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #StickyListHeadersListView_android_choiceMode android:choiceMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #StickyListHeadersListView_android_clipToPadding android:clipToPadding}</code></td><td> Android attributes </td></tr>
+           <tr><td><code>{@link #StickyListHeadersListView_android_divider android:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #StickyListHeadersListView_android_dividerHeight android:dividerHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #StickyListHeadersListView_android_drawSelectorOnTop android:drawSelectorOnTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #StickyListHeadersListView_android_fadingEdgeLength android:fadingEdgeLength}</code></td><td> ListView attributes </td></tr>
+           <tr><td><code>{@link #StickyListHeadersListView_android_fastScrollEnabled android:fastScrollEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #StickyListHeadersListView_android_listSelector android:listSelector}</code></td><td></td></tr>
+           <tr><td><code>{@link #StickyListHeadersListView_android_padding android:padding}</code></td><td></td></tr>
+           <tr><td><code>{@link #StickyListHeadersListView_android_paddingBottom android:paddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #StickyListHeadersListView_android_paddingLeft android:paddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #StickyListHeadersListView_android_paddingRight android:paddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #StickyListHeadersListView_android_paddingTop android:paddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #StickyListHeadersListView_android_requiresFadingEdge android:requiresFadingEdge}</code></td><td></td></tr>
+           <tr><td><code>{@link #StickyListHeadersListView_android_scrollbarStyle android:scrollbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #StickyListHeadersListView_android_scrollingCache android:scrollingCache}</code></td><td></td></tr>
+           <tr><td><code>{@link #StickyListHeadersListView_hasStickyHeaders com.kubeiwu.commontooldemo:hasStickyHeaders}</code></td><td> StickyListHeaders attributes </td></tr>
+           <tr><td><code>{@link #StickyListHeadersListView_isDrawingListUnderStickyHeader com.kubeiwu.commontooldemo:isDrawingListUnderStickyHeader}</code></td><td></td></tr>
+           </table>
+           @see #StickyListHeadersListView_android_cacheColorHint
+           @see #StickyListHeadersListView_android_choiceMode
+           @see #StickyListHeadersListView_android_clipToPadding
+           @see #StickyListHeadersListView_android_divider
+           @see #StickyListHeadersListView_android_dividerHeight
+           @see #StickyListHeadersListView_android_drawSelectorOnTop
+           @see #StickyListHeadersListView_android_fadingEdgeLength
+           @see #StickyListHeadersListView_android_fastScrollEnabled
+           @see #StickyListHeadersListView_android_listSelector
+           @see #StickyListHeadersListView_android_padding
+           @see #StickyListHeadersListView_android_paddingBottom
+           @see #StickyListHeadersListView_android_paddingLeft
+           @see #StickyListHeadersListView_android_paddingRight
+           @see #StickyListHeadersListView_android_paddingTop
+           @see #StickyListHeadersListView_android_requiresFadingEdge
+           @see #StickyListHeadersListView_android_scrollbarStyle
+           @see #StickyListHeadersListView_android_scrollingCache
+           @see #StickyListHeadersListView_hasStickyHeaders
+           @see #StickyListHeadersListView_isDrawingListUnderStickyHeader
+         */
+        public static final int[] StickyListHeadersListView = {
+            0x0101007f, 0x010100d5, 0x010100d6, 0x010100d7,
+            0x010100d8, 0x010100d9, 0x010100e0, 0x010100eb,
+            0x010100fb, 0x010100fc, 0x010100fe, 0x01010101,
+            0x01010129, 0x0101012a, 0x0101012b, 0x01010226,
+            0x010103a5, 0x7f010008, 0x7f010009
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#cacheColorHint}
+          attribute's value can be found in the {@link #StickyListHeadersListView} array.
+          @attr name android:cacheColorHint
+        */
+        public static final int StickyListHeadersListView_android_cacheColorHint = 11;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#choiceMode}
+          attribute's value can be found in the {@link #StickyListHeadersListView} array.
+          @attr name android:choiceMode
+        */
+        public static final int StickyListHeadersListView_android_choiceMode = 14;
+        /**
+          <p>
+          @attr description
+           Android attributes 
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#clipToPadding}.
+          @attr name android:clipToPadding
+        */
+        public static final int StickyListHeadersListView_android_clipToPadding = 7;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#divider}
+          attribute's value can be found in the {@link #StickyListHeadersListView} array.
+          @attr name android:divider
+        */
+        public static final int StickyListHeadersListView_android_divider = 12;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#dividerHeight}
+          attribute's value can be found in the {@link #StickyListHeadersListView} array.
+          @attr name android:dividerHeight
+        */
+        public static final int StickyListHeadersListView_android_dividerHeight = 13;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#drawSelectorOnTop}
+          attribute's value can be found in the {@link #StickyListHeadersListView} array.
+          @attr name android:drawSelectorOnTop
+        */
+        public static final int StickyListHeadersListView_android_drawSelectorOnTop = 9;
+        /**
+          <p>
+          @attr description
+           ListView attributes 
+          <p>This corresponds to the global attribute
+          resource symbol {@link android.R.attr#fadingEdgeLength}.
+          @attr name android:fadingEdgeLength
+        */
+        public static final int StickyListHeadersListView_android_fadingEdgeLength = 6;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#fastScrollEnabled}
+          attribute's value can be found in the {@link #StickyListHeadersListView} array.
+          @attr name android:fastScrollEnabled
+        */
+        public static final int StickyListHeadersListView_android_fastScrollEnabled = 15;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#listSelector}
+          attribute's value can be found in the {@link #StickyListHeadersListView} array.
+          @attr name android:listSelector
+        */
+        public static final int StickyListHeadersListView_android_listSelector = 8;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#padding}
+          attribute's value can be found in the {@link #StickyListHeadersListView} array.
+          @attr name android:padding
+        */
+        public static final int StickyListHeadersListView_android_padding = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#paddingBottom}
+          attribute's value can be found in the {@link #StickyListHeadersListView} array.
+          @attr name android:paddingBottom
+        */
+        public static final int StickyListHeadersListView_android_paddingBottom = 5;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#paddingLeft}
+          attribute's value can be found in the {@link #StickyListHeadersListView} array.
+          @attr name android:paddingLeft
+        */
+        public static final int StickyListHeadersListView_android_paddingLeft = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#paddingRight}
+          attribute's value can be found in the {@link #StickyListHeadersListView} array.
+          @attr name android:paddingRight
+        */
+        public static final int StickyListHeadersListView_android_paddingRight = 4;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#paddingTop}
+          attribute's value can be found in the {@link #StickyListHeadersListView} array.
+          @attr name android:paddingTop
+        */
+        public static final int StickyListHeadersListView_android_paddingTop = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#requiresFadingEdge}
+          attribute's value can be found in the {@link #StickyListHeadersListView} array.
+          @attr name android:requiresFadingEdge
+        */
+        public static final int StickyListHeadersListView_android_requiresFadingEdge = 16;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#scrollbarStyle}
+          attribute's value can be found in the {@link #StickyListHeadersListView} array.
+          @attr name android:scrollbarStyle
+        */
+        public static final int StickyListHeadersListView_android_scrollbarStyle = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#scrollingCache}
+          attribute's value can be found in the {@link #StickyListHeadersListView} array.
+          @attr name android:scrollingCache
+        */
+        public static final int StickyListHeadersListView_android_scrollingCache = 10;
+        /**
+          <p>
+          @attr description
+           StickyListHeaders attributes 
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.kubeiwu.commontooldemo:hasStickyHeaders
+        */
+        public static final int StickyListHeadersListView_hasStickyHeaders = 17;
+        /**
+          <p>This symbol is the offset where the {@link com.kubeiwu.commontooldemo.R.attr#isDrawingListUnderStickyHeader}
+          attribute's value can be found in the {@link #StickyListHeadersListView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.kubeiwu.commontooldemo:isDrawingListUnderStickyHeader
+        */
+        public static final int StickyListHeadersListView_isDrawingListUnderStickyHeader = 18;
+        /**  viewpager指示器  tab 网易
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ViewPagerIndicator_vpiTabPageIndicatorStyle com.kubeiwu.commontooldemo:vpiTabPageIndicatorStyle}</code></td><td></td></tr>
+           </table>
+           @see #ViewPagerIndicator_vpiTabPageIndicatorStyle
+         */
+        public static final int[] ViewPagerIndicator = {
+            0x7f010013
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.kubeiwu.commontooldemo.R.attr#vpiTabPageIndicatorStyle}
+          attribute's value can be found in the {@link #ViewPagerIndicator} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.kubeiwu.commontooldemo:vpiTabPageIndicatorStyle
+        */
+        public static final int ViewPagerIndicator_vpiTabPageIndicatorStyle = 0;
+    };
 }

@@ -40,6 +40,7 @@ public class AotoViewpager_indicator extends Fragment {
 		//		mIndicator.setInterspace(20f);
 		//		mIndicator.set
 		mIndicator.setViewPager(viewPager);
+		mIndicator.setSnap(true);
 		return view;
 	}
 
