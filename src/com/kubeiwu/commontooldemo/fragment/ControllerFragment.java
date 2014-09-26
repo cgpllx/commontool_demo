@@ -46,6 +46,9 @@ public class ControllerFragment extends ListFragment {
 		case 3:
 			fragment = new KlistviewFragment();
 			break;
+		case 4:
+			fragment = new KCommonToolDbText();
+			break;
 		}
 		transaction.replace(R.id.content_view, fragment, fragment.getClass().getName());
 		transaction.addToBackStack(null);
@@ -60,5 +63,5 @@ public class ControllerFragment extends ListFragment {
 
 	}
 
-	String[] data = { "Tab", "TabPager", "aotoViewpager","KlistviewFragment" };
+	String[] data = { "Tab", "TabPager", "aotoViewpager","KlistviewFragment" ,"KCommonToolDb"};
 }

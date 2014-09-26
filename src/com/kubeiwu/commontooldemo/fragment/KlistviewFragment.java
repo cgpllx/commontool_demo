@@ -15,6 +15,7 @@ import android.widget.ArrayAdapter;
 import com.kubeiwu.commontool.view.pulltorefresh.listview.KListView;
 import com.kubeiwu.commontool.view.pulltorefresh.listview.KListView.IKListViewListener;
 import com.kubeiwu.commontool.view.pulltorefresh.listview.KListView.KConfig;
+import com.kubeiwu.commontooldemo.R;
 
 //Administrator
 public class KlistviewFragment extends Fragment {
@@ -25,9 +26,9 @@ public class KlistviewFragment extends Fragment {
 	@SuppressLint("NewApi")
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-		kListView = new KListView(inflater.getContext(), KConfig.getSimpleInstance().setHeader_hint_ready("康佳康佳"));// 代码写
-		// View view = inflater.inflate(R.layout.klistview, container,false);//xml
-		// kListView = (KListView) view.findViewById(R.id.listview);
+//		kListView = new KListView(inflater.getContext(), KConfig.getSimpleInstance().setHeader_hint_ready("康佳康佳"));// 代码写
+		 View view = inflater.inflate(R.layout.klistview, container,false);//xml
+		 kListView = (KListView) view.findViewById(R.id.listview);
 		kListView.setPullRefreshEnable(true);
 		kListView.setPullLoadEnable(true);
 		kListView.setKListViewListener(new IKListViewListener() {
@@ -67,6 +68,6 @@ public class KlistviewFragment extends Fragment {
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1);
 		adapter.addAll(lists);
 		kListView.setAdapter(adapter);
-		return kListView;
+		return view;
 	}
 }
